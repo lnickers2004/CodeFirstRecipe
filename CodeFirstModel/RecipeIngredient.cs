@@ -7,15 +7,9 @@ namespace CodeFirstModel
 {
 	public class RecipeIngredient
 	{
-		public decimal Amount
-		{
-			get
-			{
-				throw new System.NotImplementedException();
-			}
-			set
-			{
-			}
-		}
+		public int RecipeIngredientId { get; set; }
+		public decimal Amount { get; set; }
+		public string Preparation { get; set; }
+		public string Unit { get; set; }
 	}
 }

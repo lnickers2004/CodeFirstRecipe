@@ -7,26 +7,8 @@ namespace CodeFirstModel
 {
 	public class RecipeStep
 	{
-		public int RecipeStepId
-		{
-			get
-			{
-				throw new System.NotImplementedException();
-			}
-			set
-			{
-			}
-		}
-
-		public string Text
-		{
-			get
-			{
-				throw new System.NotImplementedException();
-			}
-			set
-			{
-			}
-		}
+		public int RecipeStepId { get;set;}
+		public string Text { get; set; }
+		public DateTime date { get; set; }
 	}
 }
