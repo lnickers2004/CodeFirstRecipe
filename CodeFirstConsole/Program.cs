@@ -13,7 +13,8 @@ namespace CodeFirstConsole
 	{
 		static void Main( string[] args )
 		{
-			Database.SetInitializer<RecipeContext>(new DropCreateDatabaseAlways<RecipeContext>());
+			//Database.SetInitializer<RecipeContext>(new DropCreateDatabaseAlways<RecipeContext>());
+			Database.SetInitializer<RecipeContext>(new SeededInitializer());
 
 			using (var db = new RecipeContext())
 			{
