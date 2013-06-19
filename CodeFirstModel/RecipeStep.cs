@@ -9,6 +9,6 @@ namespace CodeFirstModel
 	{
 		public int RecipeStepId { get;set;}
 		public string Text { get; set; }
-		public DateTime date { get; set; }
+		public DateTime ModifiedDate { get; set; }
 	}
 }

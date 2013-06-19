@@ -18,7 +18,15 @@ namespace CodeFirstConsole
 			using (var db = new RecipeContext())
 			{
 				var theRecipe = new Recipe();
+
+
+				theRecipe.Headnote = "A recipe";
+				theRecipe.RecipeName = "Chopped Sui";
+
+
 				db.Recipes.Add(theRecipe);
+
+
 				db.SaveChanges();
 			}
 		}
