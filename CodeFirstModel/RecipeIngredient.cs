@@ -10,6 +10,6 @@ namespace CodeFirstModel
 		public int RecipeIngredientId { get; set; }
 		public decimal Amount { get; set; }
 		public string Preparation { get; set; }
-		public string Unit { get; set; }
+		public int Unit { get; set; }
 	}
 }

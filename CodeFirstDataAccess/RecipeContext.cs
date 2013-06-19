@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace CodeFirstDataAccess
 {
-	class RecipeContext : DbContext
+	public class RecipeContext : DbContext
 	{
-		public <DbSet<Recipe> Recipes { get; set; }
+		public DbSet<Recipe> Recipes { get; set; }
 	}
 }
